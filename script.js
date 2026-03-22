@@ -1,6 +1,6 @@
 function humanchoice() {
-    const humanchoice = prompt("Please enter your choice (rock, paper, or scissors):").toLowerCase();
-    if (humanchoice === "rock" || humanchoice === "paper" || humanchoice === "scissors") {
+    const choice = prompt("Please enter your choice (rock, paper, or scissors):").toLowerCase();
+    if (choice === "rock" || humanchoice === "paper" || humanchoice === "scissors") {
         return humanchoice;
     } else {
         alert("Invalid choice. Please enter rock, paper, or scissors.");
