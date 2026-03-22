@@ -29,3 +29,4 @@ function playGame() {
     const result = determineWinner(human, computer);
     alert(`You chose: ${human}\nComputer chose: ${computer}\n${result}`);
 } 
+playGame();
